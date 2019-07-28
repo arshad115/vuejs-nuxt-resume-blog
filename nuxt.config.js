@@ -16,6 +16,13 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  devModules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    configPath: '~/config/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css'
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -24,10 +31,11 @@ export default {
    ** Global CSS
    */
   css: [],
+  // css: ['assets/styles/app'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/vue-scroll-reveal', ssr: false }],
   /*
    ** Nuxt.js modules
    */
@@ -35,7 +43,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/eslint-module'
+    // '@nuxtjs/eslint-module'
   ],
   /*
    ** Axios module configuration

@@ -1,4 +1,4 @@
-# vuejs-nuxt-resume-blog
+# vuejs-nuxt-index-blog
 
 > My portfolio plus blog made with Nuxt.js and Vue.js
 
