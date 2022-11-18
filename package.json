@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^2.6.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-next-level-scroll": "^1.2.0",
     "vue-scroll-reveal": "^1.0.11"
   },
